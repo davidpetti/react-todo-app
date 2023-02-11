@@ -1,0 +1,67 @@
+* {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  color: black;
+}
+
+input {
+  border-radius: 6px;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.addTodo {
+  border-radius: 8px;
+  padding: 8px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.todo {
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin: 1rem 10rem;
+  padding: 4rem 4rem;
+  position: relative;
+}
+
+.todoName {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.todoDelete {
+  float: right;
+  margin: 0px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 1rem;
+  color: crimson;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 2px;
+}
+
+.todoTable {
+  overflow-y: scroll;
+  height: 650px;
+  margin: 20px;
+}
